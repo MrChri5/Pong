@@ -201,7 +201,7 @@ namespace pong
 
             ballPoint.X = borderWidth;
             ballPoint.Y = (panel1.Height-ballSize) / 2;
-            ballSpeed = 4;
+            ballSpeed = 3.5;
             Random rndGrad = new Random();
             ballGradient = (double)rndGrad.Next(-200, 200) / 100;
             directionRight = true;
